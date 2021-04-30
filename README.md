@@ -1,6 +1,17 @@
 
 > Ouvrir cette page à [https://gdoyoncsc.github.io/screenmagicext/](https://gdoyoncsc.github.io/screenmagicext/)
 
+## Usage
+
+### ``plotAt``
+
+```blocks
+for (let index = 0; index <= 24; index++) {
+    screenMagic.plotAt(index)
+    basic.pause(500)
+}
+```
+
 ## Utiliser en tant qu'extension
 
 Ce référentiel peut être ajouté en tant qu'**extension** dans MakeCode.
